@@ -1,0 +1,1 @@
+select * from {{ source('jaffle_shop_2', 'payment') }}
